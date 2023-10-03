@@ -28,6 +28,12 @@ main {
   flex-direction: column;
 }
 
+/* Menu */
+#menu {
+  width: 35%;
+  padding-right: 30px;
+}
+
 /* Searchbox */
 #searchbox div.ais-SearchBox {
   width: 100%;

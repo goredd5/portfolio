@@ -12,10 +12,13 @@ const search = instantsearch({
 
 //add widget
 search.addWidget(
-    //instantsearch.widgets.menu({
-    //    container: "#test-widget",
-    //    attribute: "RoleResponsibilities"
-    // }),
+    instantsearch.widgets.menu({
+        container: "#menu",
+        attribute: "RoleResponsibilities"
+     })
+);
+
+search.addWidget(
     instantsearch.widgets.searchBox({
         container: "#searchbox",
         placeholder: "Search By Companies"
@@ -29,21 +32,26 @@ search.addWidget(
             item: data => `
             <div class = "hit-title">
                 <h4>${data.Company}</h4>
+                <p>${data.Dates}</p>
+
+
             </div>
-            <div class = "dates">${data.Dates}</div>
+            <div class = "dates">${data.Title}</div>
 
             <div>${data.Description}</div>
+            <div>${data.KeyResults.Main}</div>
+            <div id = "Main">${data.KeyResults.map(
+                result => 
+                    result.Main + '<ol id = "Subs"><li>' + result.Sub1 +'</li><li>' + result.Sub2 + '</li></ol>'
+                ).join(' ')}
+            </div>
+
             
             `
         }
     })
 );
 
-search.addWidget(
-    instantsearch.widgets.menu({
-        container: "#test-widget",
-        attribute: "RoleResponsibilities"
-     })
-);
+
 
 search.start();
