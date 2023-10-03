@@ -1,4 +1,5 @@
 // initiliaze instantsearch
+
 const searchClient = algoliasearch(
     "4I5DY17LKV",
     "4005d89f836afbc480322d89b8f61342"
