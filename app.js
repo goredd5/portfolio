@@ -10,13 +10,15 @@ const search = instantsearch({
     searchClient
 });
 
-//add widget
+/*add widget
 search.addWidget(
     instantsearch.widgets.menu({
         container: "#menu",
-        attribute: "RoleResponsibilities"
+        attribute: "KeyResults.Skills"
      })
 );
+*/
+
 
 search.addWidget(
     instantsearch.widgets.searchBox({
@@ -26,31 +28,36 @@ search.addWidget(
 );
 
 search.addWidget(
-    instantsearch.widgets.hits ({
-        container: "#hits",
-        templates: {
-            item: data => `
+    instantsearch.widgets.hits({
+      container: '#hits',
+      templates: {
+        item(item) {
+            return `
             <div class = "hit-title">
-                <h4>${data.Company}</h4>
-                <p>${data.Dates}</p>
+                <h4>
+                    <h4>${item._highlightResult.Company.value}</h4>
 
-
+                <p>${item.Dates}</p>
             </div>
-            <div class = "dates">${data.Title}</div>
-
-            <div>${data.Description}</div>
-            <div>${data.KeyResults.Main}</div>
-            <div id = "Main">${data.KeyResults.map(
-                result => 
-                    result.Main + '<ol id = "Subs"><li>' + result.Sub1 +'</li><li>' + result.Sub2 + '</li></ol>'
-                ).join(' ')}
-            </div>
-
-            
-            `
-        }
+                    
+            <div class = "dates">${item.Title}</div>
+            <div id = "Description">${item.Description}</div>
+            <div id = "role">${item.RoleResponsibilities.map(
+                result => {
+                return `<span class="badge bg-secondary m-1">`+ result.trim() +'</span>'
+             }).join('')
+     }</div>
+          
+          <p>${item._highlightResult.description.value}</p>
+        </article>`;
+        },
+      },
     })
-);
+  );
+
+
+
+
 
 
 

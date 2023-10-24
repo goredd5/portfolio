@@ -1,0 +1,276 @@
+[
+  {
+    "Company": "Farfetch - Stadium Goods",
+    "Title": "Director of Product Management",
+    "RoleType": "Leadership",
+    "Order": "1",
+    "RoleResponsibilities": [
+      "People Manager",
+      "Team Building",
+      "Hiring",
+      "Strategic Planning",
+      "Goal Setting",
+      "Alignment",
+      "Product Standards",
+      "Process"
+    ],
+    "Dates": "February 2022 to March 2023",
+    "StartDate": "2/16/2020",
+    "End Date": "3/31/2023",
+    "Description": "Promoted to Director after one year -  focused on team building, strategy and driving results across Direct to Consumer (App, Web), Seller (App, Web), Data/ML and backend platform services.",
+    "KeyResults": [
+      {
+        "Main": "Drove development of product strategy to support business objectives, providing direction to 10 dev teams.",
+        "Sub1": "Partnered with Engineering, Design and Data Science to deliver exceptional customer experiences to sellers, internal Operations and DTC Customers.",
+        "Sub2": "Championed data driven decision making through experimentation and test and learn approach.",
+        "Sub3": "Utilized user research and established product dashboards to track progress.",
+        "Skills": [
+          "Leadership",
+          "Strategy"
+        ]
+      },
+      {
+        "Main": "Championed the sunset of legacy product catalog/asset systems, achieving 15% cost savings through development of an extensible homegrown system built to support business growth.",
+        "Sub1": "Drove business case creation and resource allocation discussions with the organization.",
+        "Sub2": "Set strategy and direction for the teams executing development.",
+        "Sub3": "Led ongoing project update sessions providing accountability and direction for the company.",
+        "Skills": [
+          "Data Driven Decisions"
+        ]
+      },
+      {
+        "Main": "Accountable for growth of key metrics across platform (Seller, DTC, Ops, Seller).",
+        "Sub1": "Led implementation of key marketing tech for email, social, affiliate and other channels.",
+        "Sub2": "Increased seller engagement by 33% in H1 `22 through launching  new seller android/iOS app.",
+        "Sub3": "Improved seller price competitiveness by 10% in 2022 through introducing a machine learning competitive pricing data model in collaboration with our data science team.",
+        "Skills": [
+          "Data Driven Decisions",
+          "Machine Learning"
+        ]
+      }
+    ]
+  },
+  {
+    "Company": "Farfetch - Stadium Goods",
+    "Title": "Senior Product Manager",
+    "RoleType": "Senior Individual Contributor",
+    "Order": "2",
+    "RoleResponsibilities": [
+      "Product Owner",
+      "Stakeholder Management",
+      "Roadmaps",
+      "Backlog Refinement",
+    ],
+    "Dates": "December 2018 to February 2020",
+    "StartDate": "12/28/2018",
+    "End Date": "2/15/2020",
+    "Description": "First product hire - established product standards and drove execution for a 12 member software engineering team.",
+    "KeyResults": [
+      {
+        "Main": "Drove $10M in sales in 2019 through launching new seller focused price management functionality & event driven email messaging to motivate sellers to take action on pricing opportunities.",
+        "Skills": [
+          "Data Driven Decisions"
+        ]
+      },
+      {
+        "Main": "Improved seller NPS score by 60% through focus on improving seller payment process and experience.",
+        "Skills": [
+          "Payments",
+          "Integrations"
+        ]
+      },
+      {
+        "Main": "Designed & launched successful shopify dropship application, contributing $8M in new revenue through effective management of cross-functional teams, market analysis, and needs assessment.",
+        "Skills": [
+          "Go-To-Market",
+          "Production Support"
+        ]
+      },
+      {
+        "Main": "Optimized sales channel integrations, improving search conversion by 25% and retention by 22% through improving catalog REST API integrations.",
+        "Skills": [
+          "Integrations",
+          "REST APIs"
+        ]
+      },
+      {
+        "Main": "Improved inventory accuracy and reduced loss by 45% through design of new optimized inventory management REST API with a focus on performance and relevancy of results.",
+        "Skills": [
+          "REST APIs"
+        ]
+      },
+      {
+        "Main": "Improved returns efficiency by 50% freeing up 20 hours a week in employee time by reducing 6 step process across multiple applications down to 3 in a single screen.",
+        "Skills": [
+          "Data Driven Decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "Company": "JOOR - SaaS B2B Platform",
+    "Title": "Director of Product Management",
+    "RoleType": "Leadership",
+    "Order": "3",
+    "RoleResponsibilities": [
+      "People Manager",
+      "Hiring",
+      "Strategic Planning",
+      "Goal Setting",
+      "Alignment",
+      "Product Standards",
+      "Customer Engagement",
+      "Sales Support"
+    ],
+    "Dates": "June 2014 to August 2018",
+    "StartDate": "6/1/2014",
+    "End Date": "8/1/2018",
+    "Description": "Led 10 person product & design team which scaled to over 12B in GMV and $25M in ARR.  Partnered with Enterprise Customers, Sales, Customer Success and Data Ops to attract and delight SaaS customers.",
+    "KeyResults": [
+      {
+        "Main": "Hired and mentored 8 PMs & 2 Product Designers, developing a culture of trust and accountability.",
+        "Skills": [
+          "Hiring"
+        ]
+      },
+      {
+        "Main": "Developed product strategy to meet business goals, focused on continuing to drive growth in enterprise customers, develop new SMB customer growth and expansion into international markets.",
+        "Skills": [
+          "Strategy"
+        ]
+      },
+      {
+        "Main": "Successfully designed and launched new premium buyer focused mobile & web apps, which generated $6M in new business through 2018.",
+        "Skills": [
+          "Go-To-Market",
+          "Production Support"
+        ]
+      },
+      {
+        "Main": "Partnered with Customer Success, achieving 16% increase in retention rate QoQ by defining critical platform adoption metrics, identifying high-risk accounts, standardizing retention playbook and collecting key feedback on customer needs.",
+        "Skills": [
+          "Leadership"
+        ]
+      },
+      {
+        "Main": "Drove 180% YoY new customer growth by leveraged deep technical expertise to develop customer facing REST API and file based integrations allowing more customers to integrate to the platform.",
+        "Skills": [
+          "Integrations",
+          "REST APIs"
+        ]
+      },
+      {
+        "Main": "Improved search conversion by 26% through implementing optimized search experience across web/app.",
+        "Sub1": "Utilized google analytics to assess existing search metrics and identified areas of opportunity.",
+        "Sub2": "Researched relevant features and worked with design on UX/UI consideration.",
+        "Sub3": "A/B Tested new experiences & features to assess impact on key metrics.",
+        "Skills": [
+          "Experimentation"
+        ]
+      }
+    ]
+  },
+  {
+    "Company": "JOOR - SaaS B2B Platform",
+    "Title": "Product Manager",
+    "RoleType": "Individual Contributor",
+    "Order": "4",
+    "RoleResponsibilities": [
+      "Product Owner",
+      "Stakeholder Management",
+      "User Stories",
+      "Roadmaps",
+      "Backlog Refinement",
+      "Leading Standups",
+      "Customer Engagement",
+      "Sales Support"
+    ],
+    "Dates": "Sept 2012 to May 2014",
+    "StartDate": "9/15/2012",
+    "End Date": "5/31/2014",
+    "Description": "Product Manager for flagship iPad App. ",
+    "KeyResults": [
+      {
+        "Main": "Utilized user research to redesign & launch flagship iOS iPad app, driving 10% YoY improvement to transactions through focus on UX improvements and enhanced reporting features.",
+        "Sub1": "Worked with partners in CSM/Sales & Customers to collect feedback and develop product outcomes.",
+        "Sub2": "Led design sprints to produce working prototypes and present for feedback.",
+        "Sub3": "Created support documentation for internal & external customers.",
+        "Skills": [
+          "Go-To-Market",
+          "User Research",
+          "Production Support"
+        ]
+      },
+      {
+        "Main": "Drove $1M in new business through development of go-to-market strategy and international iPad app launch.",
+        "Sub1": "Created competitive analysis to assess opportunities and led feedback sessions with prospects.",
+        "Sub2": "Saw development of integrated translations and multi-currency support through to production release.",
+        "Skills": [
+          "Go-To-Market",
+          "User Research",
+          "Production Support"
+        ]
+      },
+      {
+        "Main": "Led product calls with new customers to assess needs and set up onboarding plan to utilize existing platform.",
+        "Skills": [
+          "Leadership"
+        ]
+      },
+      {
+        "Main": "Designed and built first internal product usage dashboard utilizing SQL & Tableau.",
+        "Sub1": "Developed integration with google analytics to import usage data into a centralized database.",
+        "Sub2": "Created SQL reports to combine google analytics and order transaction data.",
+        "Skills": [
+          "Data Driven Decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "Company": "Grubhub",
+    "Title": "QA Engineer - Web/Mobile",
+    "RoleType": "Individual Contributor",
+    "Order": "5",
+    "RoleResponsibilities": [
+      "Manual QA Testing",
+      "Automated Testing",
+      "Acceptance Criteria",
+      "Test Plans",
+      "Production Support",
+      "Bug Triage"
+    ],
+    "Dates": "Mar 2012 to August 2012",
+    "StartDate": "3/20/2012",
+    "End Date": "8/31/2012",
+    "Description": "Product Manager for flagship iPad App. ",
+    "KeyResults": [
+      {
+        "Main": "Key member of QA team accountable for writing comprehensive test cases and provided critical support for multiple production applications.",
+        "Skills": [
+          "QA Testing "
+        ]
+      },
+      {
+        "Main": "Developed Selenium framework for automated testing, reducing regression testing from 1-2 days to 2.5 hours.",
+        "Skills": [
+          "QA Testing "
+
+        ]
+      },
+      {
+        "Main": "Reduced overall bug triage time from an average of 6 days to 2 days over a 6-month period, by setting up process and tools to quickly triage issues and route to the correct team.",
+        "Skills": [
+          "QA Testing "
+
+        ]
+      },
+      {
+        "Main": "Collaborated closely with developers and cross-functional teams, resolving complex issues and delivering all applications on time and with the highest level of quality.",
+        "Skills": [
+          "Release Planning"
+        ]
+      }
+    ]
+  }
+]
