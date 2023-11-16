@@ -17,7 +17,7 @@ search.addWidget(
         attribute: "KeyResults.Skills"
      })
 );
-*/
+
 
 
 search.addWidget(
@@ -27,6 +27,15 @@ search.addWidget(
     })
 );
 
+
+search.addWidget(
+    instantsearch.widgets.menu({
+        container: "#menu",
+        attribute: "KeyResults.Skills"
+     })
+);
+*/
+
 search.addWidget(
     instantsearch.widgets.hits({
       container: '#hits',
@@ -34,22 +43,29 @@ search.addWidget(
         item(item) {
             return `
             <div class = "hit-title">
-                <h4>
-                    <h4>${item._highlightResult.Company.value}</h4>
+                
+            <h4>${item._highlightResult.Company.value}</h4>
 
-                <p>${item.Dates}</p>
+            <p>${item.Dates}</p>
             </div>
                     
             <div class = "dates">${item.Title}</div>
-            <div id = "Description">${item.Description}</div>
-            <div id = "role">${item.RoleResponsibilities.map(
-                result => {
-                return `<span class="badge bg-secondary m-1">`+ result.trim() +'</span>'
-             }).join('')
-     }</div>
+
+
+            <div id = "role">${item._highlightResult.RoleResponsibilities
+                .map(({ value }) => `<span class="badge bg-secondary m-1">${value}</span>`)
+                .join('')}</div>
           
-          <p>${item._highlightResult.description.value}</p>
-        </article>`;
+            <p>${item.Description}</p>
+            ${item.KeyResults.map(
+                result => {
+                    if ( result.Sub1 == null  ) {
+                        return `<div id = "Main">`+ result.Main +`</div>`
+                    } else {
+                        return `<div id = "Main">`+ result.Main + '<ol id = "Subs"><li>' + result.Sub1 +'</li><li>' + result.Sub2 + '</li><li>' + result.Sub3 + '</li></ol></div>'
+                    }
+            }).join('')}
+        `;
         },
       },
     })

@@ -41,11 +41,12 @@
       {
         "Main": "Accountable for growth of key metrics across platform (Seller, DTC, Ops, Seller).",
         "Sub1": "Led implementation of key marketing tech for email, social, affiliate and other channels.",
-        "Sub2": "Increased seller engagement by 33% in H1 `22 through launching  new seller android/iOS app.",
+        "Sub2": "Increased seller listings by 25% in H1 `22 through launching  new seller android/iOS app.",
         "Sub3": "Improved seller price competitiveness by 10% in 2022 through introducing a machine learning competitive pricing data model in collaboration with our data science team.",
         "Skills": [
           "Data Driven Decisions",
-          "Machine Learning"
+          "Machine Learning",
+          "Experimentation"
         ]
       }
     ]
@@ -59,7 +60,7 @@
       "Product Owner",
       "Stakeholder Management",
       "Roadmaps",
-      "Backlog Refinement",
+      "Backlog Refinement"
     ],
     "Dates": "December 2018 to February 2020",
     "StartDate": "12/28/2018",
@@ -87,14 +88,21 @@
         ]
       },
       {
-        "Main": "Optimized sales channel integrations, improving search conversion by 25% and retention by 22% through improving catalog REST API integrations.",
+        "Main": "Improved search conversion by 25% and retention by 22% through implementing Algolia & A/B testing different strategies/configurations.",
+        "Skills": [
+          "Search",
+          "Experimentation"
+        ]
+      },
+      {
+        "Main": "Optimized Rest API integrations with 3rd party platforms, improving retention by 15% through improved data validation and catalog operations.",
         "Skills": [
           "Integrations",
           "REST APIs"
         ]
       },
       {
-        "Main": "Improved inventory accuracy and reduced loss by 45% through design of new optimized inventory management REST API with a focus on performance and relevancy of results.",
+        "Main": "Drove improved inventory accuracy and reduced loss by 45% through design of new optimized inventory management REST API with a focus on performance and relevancy of results.",
         "Skills": [
           "REST APIs"
         ]
@@ -178,10 +186,8 @@
     "RoleResponsibilities": [
       "Product Owner",
       "Stakeholder Management",
-      "User Stories",
       "Roadmaps",
       "Backlog Refinement",
-      "Leading Standups",
       "Customer Engagement",
       "Sales Support"
     ],
@@ -255,14 +261,12 @@
         "Main": "Developed Selenium framework for automated testing, reducing regression testing from 1-2 days to 2.5 hours.",
         "Skills": [
           "QA Testing "
-
         ]
       },
       {
         "Main": "Reduced overall bug triage time from an average of 6 days to 2 days over a 6-month period, by setting up process and tools to quickly triage issues and route to the correct team.",
         "Skills": [
           "QA Testing "
-
         ]
       },
       {
